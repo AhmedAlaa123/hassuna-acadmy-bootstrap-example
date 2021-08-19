@@ -1,0 +1,88 @@
+body{
+    background-color: #4f4f4f;
+}
+.navbar{
+    background-color: #232930cb !important;
+}
+
+.myLogo{
+    height: 35px;
+    width: 35px;
+    border-radius: 15px;
+}
+code{
+    font-size: 135% !important;
+}
+
+.carousel-inner img{
+    width: 100%;
+    max-height: 350px;
+}
+.carousel-inner h1{
+    color: rgb(26, 58, 165);
+    text-shadow: 1px 1px  black ;
+}
+.carousel-inner .carousel-caption{
+    background-color: rgba(200, 200, 200, .5);
+    border-radius: 5px;
+}
+
+
+a{
+    color: #ccccff ;
+}
+a:hover{
+    color: white ;
+}
+
+.text-light-info{
+ color: #69dbec;
+}
+
+.myicon{
+    
+    border: 1px solid white;
+}
+footer{
+    margin-top: 50px;
+    margin-bottom: -25px;
+    padding: 20x;
+    padding-bottom: 1px;
+}
+
+.fixedimg{
+    background-attachment: fixed;
+    background-size: cover;
+    height: 350px;
+}
+.fixedimg1{
+    background-image: url(../images/back1.jpg);
+}
+.fixedimg2{
+    background-image: url(../images/back2.jpg);
+}
+
+.navbar-brand,.navbar li{
+    transition: 0.5s;
+}
+.navbar-brand:hover{
+    text-shadow: 10px 10px 20px white,
+                 -10px -10px 20px white;
+}
+.navbar li:hover{
+    padding-left: 10px;
+}
+
+.carousel-indicators li{
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 50% !important;
+    background-color: rgba(30, 126, 150, 0.699) !important;
+    border: 1px solid rgb(3, 44, 92);
+    box-shadow: 0px 0px 10px 5px rgb(2, 68, 99) !important;
+    margin-right: 15px;
+}
+
+li.active{
+    background-color: rgb(8, 127, 156) !important;
+}
